@@ -1,4 +1,55 @@
-header {
-  background-color: aquamarine;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+header a {
+  padding-left: 2rem;
+}
+
+header .header-top {
+  display: flex;
+  justify-content: end;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 3px 4rem;
+  background-color: rgb(2, 130, 249);
+  color: white;
+}
+
+header .header-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(28, 28, 28);
+}
+
+header .header-bottom .logo {
+  padding: 1rem;
+}
+
+header .header-bottom .logo img {
+  width: 70px;
+  display: inline-block;
 }
 

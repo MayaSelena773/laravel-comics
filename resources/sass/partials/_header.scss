@@ -1,0 +1,30 @@
+header {
+    a {
+        padding-left: 2rem;
+    }
+    .header-top {
+        display: flex;
+        justify-content: end;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 3px 4rem;
+        background-color: $brand_color;
+        color: white;
+    }
+
+    .header-bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        color: $main_color;
+
+        .logo {
+            padding: 1rem;
+            img {
+                width: 70px;
+                display: inline-block;
+            }
+        }
+    }
+}
