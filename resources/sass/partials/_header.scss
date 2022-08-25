@@ -1,10 +1,9 @@
 header {
     a {
-        padding-left: 2rem;
+        padding-left: 1.8rem;
     }
     .header-top {
-        display: flex;
-        justify-content: end;
+        text-align: end;
         text-transform: uppercase;
         font-size: 10px;
         padding: 3px 4rem;
@@ -14,16 +13,24 @@ header {
 
     .header-bottom {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         text-transform: uppercase;
         color: $main_color;
+        font-size: 13px;
 
         .logo {
             padding: 1rem;
             img {
                 width: 70px;
                 display: inline-block;
+            }
+        }
+
+        li {
+            &.current {
+                color: $brand_color;
+                text-decoration: underline;
             }
         }
     }
