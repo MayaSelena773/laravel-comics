@@ -26,6 +26,16 @@ img {
   display: flex;
 }
 
+.title-uppercase {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 header a {
   padding-left: 1.8rem;
 }
@@ -69,5 +79,28 @@ section .jumbotron {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.products-list {
+  background-color: rgb(28, 28, 28);
+}
+
+.products-list h4 {
+  background-color: rgb(2, 130, 249);
+  padding: 10px;
+  display: inline-block;
+}
+
+.products-list .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products-list .card-container .card {
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  margin: 20px 10px;
 }
 

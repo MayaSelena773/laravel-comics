@@ -1,0 +1,20 @@
+.products-list {
+    background-color: $main_color;
+
+    h4 {
+        background-color: $brand_color;
+        padding: 10px;
+        display: inline-block;
+    }
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .card {
+            width: 150px;
+            height: 150px;
+            border: 1px solid white;
+            margin: 20px 10px;
+        }
+    }
+} 
